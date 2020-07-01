@@ -10,23 +10,23 @@
         <copied_from/>
         <copied_from_name/>
         <description/>
-        <ih_action>false</ih_action>
+        <ih_action>true</ih_action>
         <internal_name>detect_text</internal_name>
         <label_cache>[{"name":"{{action.base64_image}}","label":"action➛base64_image","type":"action","ref":""},{"name":"{{action.base64}}","label":"action➛base64","type":"action","ref":""},{"name":"{{action.base64_content}}","label":"action➛base64 content","type":"action","ref":""},{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":""},{"name":"{{step[ce67395d-9a42-480a-94fb-5b57718ba90f].sn_auth_token}}","label":"step➛POST to VisionAPI➛Credential Value","type":"step","ref":""},{"name":"{{step[ce67395d-9a42-480a-94fb-5b57718ba90f].response_body}}","label":"step➛POST to VisionAPI➛Response Body","type":"step","ref":""},{"name":"{{step[ce67395d-9a42-480a-94fb-5b57718ba90f].status_code}}","label":"step➛POST to VisionAPI➛Status Code","type":"step","ref":""},{"name":"{{step[2c057ab9-aaec-4aa8-834f-87b3accd9146].variable}}","label":"step➛Handle errors➛variable","type":"step","ref":""},{"name":"{{step[2c057ab9-aaec-4aa8-834f-87b3accd9146].variable1}}","label":"step➛Handle errors➛variable1","type":"step","ref":""},{"name":"{{step[2c057ab9-aaec-4aa8-834f-87b3accd9146].status}}","label":"step➛Handle errors➛status","type":"step","ref":""},{"name":"{{step[2c057ab9-aaec-4aa8-834f-87b3accd9146].error_message}}","label":"step➛Handle errors➛error_message","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>5765cb601b75d410a9a855f82d4bcb8c</latest_snapshot>
+        <latest_snapshot>339e8ba81b75d410a9a855f82d4bcbe1</latest_snapshot>
         <master_snapshot>fb650f601b75d410a9a855f82d4bcb16</master_snapshot>
         <name>Detect text</name>
         <natlang/>
         <outputs/>
         <outputs/>
-        <state>draft</state>
+        <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 12:21:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3133d6d81b359410a9a855f82d4bcb48</sys_id>
-        <sys_mod_count>25</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Detect text</sys_name>
         <sys_overrides/>
         <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3133d6d81b359410a9a855f82d4bcb48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 10:43:47</sys_updated_on>
+        <sys_updated_on>2020-07-01 11:19:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -2019,17 +2019,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"41754f601b75d410a9a855f82d4bcb23","name":"plan"}}</plan>
-        <snapshot>5765cb601b75d410a9a855f82d4bcb8c</snapshot>
+        <snapshot>339e8ba81b75d410a9a855f82d4bcbe1</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-01 10:39:08</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41754f601b75d410a9a855f82d4bcb23</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 10:39:08</sys_updated_on>
+        <sys_updated_on>2020-07-01 11:19:17</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
