@@ -2,7 +2,7 @@
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
         <can_edit_in_studio>false</can_edit_in_studio>
-        <enforce_license>none</enforce_license>
+        <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
@@ -16,7 +16,7 @@
         <runtime_access_tracking>permissive</runtime_access_tracking>
         <scope>x_snc_ocr_spoke</scope>
         <scoped_administration>false</scoped_administration>
-        <short_description>Use Google Cloud Vision API to OCR documents</short_description>
+        <short_description>Use Google Cloud Vision API to OCR documents.</short_description>
         <source>x_snc_ocr_spoke</source>
         <store_correlation_id/>
         <store_url/>
@@ -25,9 +25,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 12:20:23</sys_created_on>
         <sys_id>5a03da981b359410a9a855f82d4bcb56</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 12:20:24</sys_updated_on>
+        <sys_updated_on>2020-07-01 11:03:23</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
