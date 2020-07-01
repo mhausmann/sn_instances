@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_ocr_spoke.GCloudErrorHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>GCloudErrorHandler</name>
+        <script><![CDATA[ var GCloudErrorHandler = Class.create();
+
+ GCloudErrorHandler.prototype = {
+	initialize: function() {},
+	genericErrorHandler: function(inputObj, outputObj) {
+
+		if (inputObj.status_code != 201) {
+			if (inputObj.status_code == 401) {
+				outputObj.error_message = "Invalid credentials";
+			} else {
+				outputObj.error_message = JSON.parse(inputObj.response_body).message;
+			}
+			outputObj.status = "Error";
+		} else {
+			outputObj.status = "Success";
+		}
+	},
+	type: 'GCloudErrorHandler'
+ };]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 12:59:16</sys_created_on>
+        <sys_id>229b9e901b759410a9a855f82d4bcb96</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GCloudErrorHandler</sys_name>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_script_include_229b9e901b759410a9a855f82d4bcb96</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 12:59:16</sys_updated_on>
+    </sys_script_include>
+</record_update>

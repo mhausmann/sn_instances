@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ocr_spoke_ocr_documents">
+    <x_snc_ocr_spoke_ocr_documents action="INSERT_OR_UPDATE">
+        <image/>
+        <sys_class_name>x_snc_ocr_spoke_ocr_documents</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-01 08:23:49</sys_created_on>
+        <sys_id>8966ee641bf1d410a9a855f82d4bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>x_snc_ocr_spoke_ocr_documents_8966ee641bf1d410a9a855f82d4bcb4e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-01 08:23:49</sys_updated_on>
+        <u_image_base64>/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAA8LDA0M</u_image_base64>
+        <u_string_1/>
+    </x_snc_ocr_spoke_ocr_documents>
+</record_update>

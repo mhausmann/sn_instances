@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
+    <sys_app action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
+        <enforce_license>none</enforce_license>
+        <guided_setup_guid/>
+        <js_level>helsinki_es5</js_level>
+        <licensable>true</licensable>
+        <license_category>none</license_category>
+        <license_model>none</license_model>
+        <logo>6603d2d01b359410a9a855f82d4bcbd8</logo>
+        <menu/>
+        <name>OCR Spoke</name>
+        <private>false</private>
+        <restrict_table_access>false</restrict_table_access>
+        <runtime_access_tracking>permissive</runtime_access_tracking>
+        <scope>x_snc_ocr_spoke</scope>
+        <scoped_administration>false</scoped_administration>
+        <short_description>Use Google Cloud Vision API to OCR documents</short_description>
+        <source>x_snc_ocr_spoke</source>
+        <store_correlation_id/>
+        <store_url/>
+        <sys_class_name>sys_app</sys_class_name>
+        <sys_code/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 12:20:23</sys_created_on>
+        <sys_id>5a03da981b359410a9a855f82d4bcb56</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 12:20:24</sys_updated_on>
+        <template/>
+        <trackable>true</trackable>
+        <user_role/>
+        <vendor/>
+        <vendor_prefix/>
+        <version>1.0.0</version>
+    </sys_app>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>Cloud Vision API.png</file_name>
+        <hash>30500b1f5b1555bfb52fbe5948d52268d2094e2a3c87f26eced2b19440856312</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>5822</size_bytes>
+        <size_compressed>5667</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 12:20:24</sys_created_on>
+        <sys_id>6603d2d01b359410a9a855f82d4bcbd8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-06-30 12:20:24</sys_updated_on>
+        <table_name>sys_app</table_name>
+        <table_sys_id>5a03da981b359410a9a855f82d4bcb56</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="Cloud Vision API.png" sys_id="6603d2d01b359410a9a855f82d4bcbd8">6603d2d01b359410a9a855f82d4bcbd8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 12:20:24</sys_created_on>
+        <sys_id>a603d2d01b359410a9a855f82d4bcbd8</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>7544</length>
+        <position>1</position>
+        <sys_attachment display_value="Cloud Vision API.png" sys_id="6603d2d01b359410a9a855f82d4bcbd8">6603d2d01b359410a9a855f82d4bcbd8</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 12:20:24</sys_created_on>
+        <sys_id>2a03d2d01b359410a9a855f82d4bcbd8</sys_id>
+    </sys_attachment_doc>
+</record_update>
