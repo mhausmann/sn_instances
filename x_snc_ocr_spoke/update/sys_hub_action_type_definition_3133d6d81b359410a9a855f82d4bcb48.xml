@@ -26,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3133d6d81b359410a9a855f82d4bcb48</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Detect text</sys_name>
         <sys_overrides/>
         <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
@@ -34,7 +34,7 @@
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3133d6d81b359410a9a855f82d4bcb48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 15:24:30</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:52:37</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -65,7 +65,7 @@
         <table>var__m_sys_hub_action_output_3133d6d81b359410a9a855f82d4bcb48</table>
         <value>{{step[2c057ab9-aaec-4aa8-834f-87b3accd9146].status}}</value>
     </sys_element_mapping>
-    <sys_hub_step_instance action="delete_multiple" query="action=3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN0535fbe81bf5d410a9a855f82d4bcb5d,394cdad01b759410a9a855f82d4bcb50,773792dc1b359410a9a855f82d4bcb9c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN0535fbe81bf5d410a9a855f82d4bcb5d,394cdad01b759410a9a855f82d4bcb50,773792dc1b359410a9a855f82d4bcb9c,f37633741b751810a9a855f82d4bcb64"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action>
         <cid>c1c809a2-72e6-403e-87e7-8809f32720f0</cid>
@@ -342,17 +342,17 @@ else{
         <icon/>
         <inputs/>
         <label>Handle errors</label>
-        <order>3</order>
+        <order>4</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 13:00:45</sys_created_on>
         <sys_id>394cdad01b759410a9a855f82d4bcb50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 09:26:54</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=394cdad01b759410a9a855f82d4bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1054,6 +1054,67 @@ else{
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-30 12:38:46</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action>
+        <cid>c46c5082-b9fb-4152-8d40-6396a6df2c71</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update OCR Text table</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create or Update Record">8f5c107a53a3230034c6ddeeff7b129d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:53</sys_created_on>
+        <sys_id>f37633741b751810a9a855f82d4bcb64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:52:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f37633741b751810a9a855f82d4bcb64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f37633741b751810a9a855f82d4bcb64</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>7f7633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <value>x_snc_ocr_spoke_ocr_documents</value>
+        <variable display_value="">728c907a53a3230034c6ddeeff7b12e9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f37633741b751810a9a855f82d4bcb64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>f37633741b751810a9a855f82d4bcb64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>377633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_8f5c107a53a3230034c6ddeeff7b129d</table>
+        <value>ocr_text={{step[ce67395d-9a42-480a-94fb-5b57718ba90f].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f37633741b751810a9a855f82d4bcb64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>fb7633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_8f5c107a53a3230034c6ddeeff7b129d</table>
         <value/>
     </sys_element_mapping>
     <sys_hub_action_input action="delete_multiple" query="model=3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN1426c0f81b39d410a9a855f82d4bcb3e,336284f41b39d410a9a855f82d4bcbaf,dea688f81b39d410a9a855f82d4bcbfb"/>
@@ -1467,7 +1528,7 @@ else{
         <write_roles/>
         <xml_view>false</xml_view>
     </sys_hub_action_output>
-    <sys_hub_step_instance action="delete_multiple" query="action=3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN0535fbe81bf5d410a9a855f82d4bcb5d,394cdad01b759410a9a855f82d4bcb50,773792dc1b359410a9a855f82d4bcb9c"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN0535fbe81bf5d410a9a855f82d4bcb5d,394cdad01b759410a9a855f82d4bcb50,773792dc1b359410a9a855f82d4bcb9c,f37633741b751810a9a855f82d4bcb64"/>
     <sys_hub_step_instance action="INSERT_OR_UPDATE">
         <action display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action>
         <cid>c1c809a2-72e6-403e-87e7-8809f32720f0</cid>
@@ -1744,17 +1805,17 @@ else{
         <icon/>
         <inputs/>
         <label>Handle errors</label>
-        <order>3</order>
+        <order>4</order>
         <outputs/>
         <section/>
         <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-30 13:00:45</sys_created_on>
         <sys_id>394cdad01b759410a9a855f82d4bcb50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-01 09:26:54</sys_updated_on>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=394cdad01b759410a9a855f82d4bcb50"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -2456,6 +2517,67 @@ else{
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-30 12:38:46</sys_updated_on>
         <table>var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action>
+        <cid>c46c5082-b9fb-4152-8d40-6396a6df2c71</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update OCR Text table</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Create or Update Record">8f5c107a53a3230034c6ddeeff7b129d</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:53</sys_created_on>
+        <sys_id>f37633741b751810a9a855f82d4bcb64</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:52:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f37633741b751810a9a855f82d4bcb64"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f37633741b751810a9a855f82d4bcb64</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>7f7633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <value>x_snc_ocr_spoke_ocr_documents</value>
+        <variable display_value="">728c907a53a3230034c6ddeeff7b12e9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f37633741b751810a9a855f82d4bcb64"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>fields</field>
+        <id>f37633741b751810a9a855f82d4bcb64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>377633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_8f5c107a53a3230034c6ddeeff7b129d</table>
+        <value>ocr_text={{step[ce67395d-9a42-480a-94fb-5b57718ba90f].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>f37633741b751810a9a855f82d4bcb64</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:51:54</sys_created_on>
+        <sys_id>fb7633741b751810a9a855f82d4bcb69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:51:54</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_8f5c107a53a3230034c6ddeeff7b129d</table>
         <value/>
     </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_3133d6d81b359410a9a855f82d4bcb48^sys_idNOT IN52a6c8f81b39d410a9a855f82d4bcb04,5426c0f81b39d410a9a855f82d4bcb46,847248f41b39d410a9a855f82d4bcb15"/>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true" extends="sys_metadata" label="OCR Documents" max_length="40" name="x_snc_ocr_spoke_ocr_documents" sizeclass="1" type="collection">
         <element label="Image" mandatory="true" max_length="40" name="image" type="file_attachment"/>
-        <element label="image base64" max_length="40" name="u_image_base64" type="translated_text"/>
-        <element attributes="edge_encryption_enabled=true" dependent="image" dependent_on_field="image" label="Image base64" max_length="800" name="u_string_1" type="data_structure" use_dependent_field="true"/>
+        <element label="OCR Text" max_length="8000" name="ocr_text" type="string"/>
     </element>
 </database>

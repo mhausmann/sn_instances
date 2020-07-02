@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ocr_spoke_ocr_documents">
+    <x_snc_ocr_spoke_ocr_documents action="DELETE">
+        <image/>
+        <ocr_text>{
+  "responses": [
+    {
+      "textAnno</ocr_text>
+        <sys_class_name>x_snc_ocr_spoke_ocr_documents</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-07-02 08:56:02</sys_created_on>
+        <sys_id>ac7737b41b751810a9a855f82d4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>x_snc_ocr_spoke_ocr_documents_ac7737b41b751810a9a855f82d4bcb4a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:56:02</sys_updated_on>
+    </x_snc_ocr_spoke_ocr_documents>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</application>
+        <file_path/>
+        <instance_id>ffe3d2b3db481814d5c911f8489619a8</instance_id>
+        <instance_name>mhdevopsdemo</instance_name>
+        <name>x_snc_ocr_spoke_ocr_documents_ac7737b41b751810a9a855f82d4bcb4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_snc_ocr_spoke_ocr_documents"><x_snc_ocr_spoke_ocr_documents action="INSERT_OR_UPDATE"><image/><ocr_text>{
+  "responses": [
+    {
+      "textAnno</ocr_text><sys_class_name>x_snc_ocr_spoke_ocr_documents</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2020-07-02 08:56:02</sys_created_on><sys_id>ac7737b41b751810a9a855f82d4bcb4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package><sys_policy/><sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope><sys_update_name>x_snc_ocr_spoke_ocr_documents_ac7737b41b751810a9a855f82d4bcb4a</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2020-07-02 08:56:02</sys_updated_on></x_snc_ocr_spoke_ocr_documents></record_update>]]></payload>
+        <payload_hash>1303887146</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>02f74be01b75d410a9a855f82d4bcb70</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2020-07-02 08:56:02</sys_created_on>
+        <sys_id>e07737b41b751810a9a855f82d4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1730ebd70590000001</sys_recorded_at>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:56:02</sys_updated_on>
+        <type>OCR Documents</type>
+        <update_guid>2c7737b4c2751810d9f9f820c3f2e34b</update_guid>
+        <update_guid_history>2c7737b4c2751810d9f9f820c3f2e34b:1303887146</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">3ef7ffb41b751810a9a855f82d4bcb00</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:58:22</sys_created_on>
+        <sys_db_object display_value="" name="x_snc_ocr_spoke_ocr_documents">x_snc_ocr_spoke_ocr_documents</sys_db_object>
+        <sys_id>33950ca05eb4413db8e1aea249485409</sys_id>
+        <sys_metadata>ac7737b41b751810a9a855f82d4bcb4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_scope_delete display_value="">1251c843c53c4b578eb85a4edd37b7e1</sys_scope_delete>
+        <sys_update_name>x_snc_ocr_spoke_ocr_documents_ac7737b41b751810a9a855f82d4bcb4a</sys_update_name>
+        <sys_update_version display_value="x_snc_ocr_spoke_ocr_documents_ac7737b41b751810a9a855f82d4bcb4a">e07737b41b751810a9a855f82d4bcb4c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:58:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

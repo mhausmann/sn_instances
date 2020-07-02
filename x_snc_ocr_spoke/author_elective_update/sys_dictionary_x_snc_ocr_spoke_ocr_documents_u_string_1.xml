@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_string_1" table="x_snc_ocr_spoke_ocr_documents">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Image base64</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>image</dependent>
+        <dependent_on_field>image</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_string_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="">data_structure</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>800</max_length>
+        <name>x_snc_ocr_spoke_ocr_documents</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 13:38:09</sys_created_on>
+        <sys_id>e1d4ead81b759410a9a855f82d4bcbd0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Image base64</sys_name>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_dictionary_x_snc_ocr_spoke_ocr_documents_u_string_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 13:51:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</application>
+        <file_path/>
+        <instance_id>ffe3d2b3db481814d5c911f8489619a8</instance_id>
+        <instance_name>mhdevopsdemo</instance_name>
+        <name>sys_dictionary_x_snc_ocr_spoke_ocr_documents_u_string_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_string_1" table="x_snc_ocr_spoke_ocr_documents"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Image base64</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent>image</dependent><dependent_on_field>image</dependent_on_field><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_string_1</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">data_structure</internal_type><mandatory>false</mandatory><max_length>800</max_length><name>x_snc_ocr_spoke_ocr_documents</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-30 13:38:09</sys_created_on><sys_id>e1d4ead81b759410a9a855f82d4bcbd0</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Image base64</sys_name><sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package><sys_policy/><sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope><sys_update_name>sys_dictionary_x_snc_ocr_spoke_ocr_documents_u_string_1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-30 13:51:30</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>true</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1505917096</payload_hash>
+        <record_name>OCR Documents.Image base64</record_name>
+        <reverted_from/>
+        <source>2e03da981b359410a9a855f82d4bcb58</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 13:51:31</sys_created_on>
+        <sys_id>d5e7ae9c1b759410a9a855f82d4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173057f3bd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 13:51:31</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>11e7ae9c3e7594101f411c1c77cdc7fe</update_guid>
+        <update_guid_history>11e7ae9c3e7594101f411c1c77cdc7fe:-1505917096,ddd76e9c8b7594102f581f476deb9729:748281898,6dd42ed8e475941036d51ef7d0bea218:717728454,e9d42ed8cf759410422b161139cfc408:1828904522</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 08:48:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>359b948601d1401db5c9717d5a74bf01</sys_id>
+        <sys_metadata>e1d4ead81b759410a9a855f82d4bcbd0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Image base64</sys_name>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_parent display_value="OCR Documents">1752a6581b759410a9a855f82d4bcbdd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_scope_delete display_value="">1251c843c53c4b578eb85a4edd37b7e1</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_snc_ocr_spoke_ocr_documents_u_string_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_snc_ocr_spoke_ocr_documents_u_string_1">d5e7ae9c1b759410a9a855f82d4bcbfe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 08:48:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
