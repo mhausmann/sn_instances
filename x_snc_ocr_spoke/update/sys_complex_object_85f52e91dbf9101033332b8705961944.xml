@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc1f52e91ccf91010af985f6446ce9a44</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5a03da981b359410a9a855f82d4bcb56</scope_name>
+        <serialized_content>{"FlowDesigner:FDc1f52e91ccf91010af985f6446ce9a44":{"$COCollectionField":[{"textAnnotation":{"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"true\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"f9174c5d-136f-4d5a-9c83-d80b287600c2\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"2c057ab9-aaec-4aa8-834f-87b3accd9146\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"textAnnotations\",\"mandatory\":\"false\",\"child_name\":\"textAnnotation\",\"uiUniqueId\":\"a0bed7e7-e8f6-4e95-a2e4-be098c8149db\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc1f52e91ccf91010af985f6446ce9a44\",\"child_label\":\"textAnnotation\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"43430a74-56b3-4cc2-9d05-2c3348684b22\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4c308cde-ee63-49d6-b693-bccf3b3585c2\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc1f52e91ccf91010af985f6446ce9a44.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"2c057ab9-aaec-4aa8-834f-87b3accd9146\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"textAnnotations\",\"mandatory\":\"false\",\"child_name\":\"textAnnotation\",\"uiUniqueId\":\"a0bed7e7-e8f6-4e95-a2e4-be098c8149db\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc1f52e91ccf91010af985f6446ce9a44\",\"child_label\":\"textAnnotation\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"43430a74-56b3-4cc2-9d05-2c3348684b22\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"object\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"4c308cde-ee63-49d6-b693-bccf3b3585c2\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-03 16:16:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>85f52e91dbf9101033332b8705961944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc1f52e91ccf91010af985f6446ce9a44</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_complex_object_85f52e91dbf9101033332b8705961944</sys_update_name>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-03 16:16:57</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

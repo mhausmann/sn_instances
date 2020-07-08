@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_name</element>
-            <list_id display_value="x_snc_ocr_spoke_ocr_documents" element="NULL" name="x_snc_ocr_spoke_ocr_documents" parent="NULL" relationship="NULL" sys_domain="global" view="27da2162db2110105e3f7828f4961973">b418bfb41b751810a9a855f82d4bcb4d</list_id>
+            <list_id display_value="x_snc_ocr_spoke_ocr_documents" element="NULL" name="x_snc_ocr_spoke_ocr_documents" parent="NULL" relationship="NULL" sys_domain="global" view="0b7d3051db31101033332b870596196f">b418bfb41b751810a9a855f82d4bcb4d</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-07-02 08:58:47</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">27da2162db2110105e3f7828f4961973</view>
+            <view display_value="Reference List" name="sys_ref_list">0b7d3051db31101033332b870596196f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

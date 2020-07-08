@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD0ffeb81e40fd1010f09c07ee4630a3a5</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5a03da981b359410a9a855f82d4bcb56</scope_name>
+        <serialized_content>{"FlowDesigner:FD0ffeb81e40fd1010f09c07ee4630a3a5":{"$COCollectionField":[{"textAnnotation":{"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"true\",\"order\":\"5\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"textAnnotations\",\"mandatory\":\"true\",\"child_name\":\"textAnnotation\",\"uiUniqueId\":\"43430a74-56b3-4cc2-9d05-2c3348684b22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0ffeb81e40fd1010f09c07ee4630a3a5\",\"child_label\":\"textAnnotation\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cf938b81-6d91-4f16-8c54-6cdbaa035f44\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD0ffeb81e40fd1010f09c07ee4630a3a5.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"textAnnotations\",\"mandatory\":\"true\",\"child_name\":\"textAnnotation\",\"uiUniqueId\":\"43430a74-56b3-4cc2-9d05-2c3348684b22\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FD0ffeb81e40fd1010f09c07ee4630a3a5\",\"child_label\":\"textAnnotation\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"4\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"cf938b81-6d91-4f16-8c54-6cdbaa035f44\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-06 11:21:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cffeb81edbfd10108cde0726ca9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD0ffeb81e40fd1010f09c07ee4630a3a5</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_complex_object_cffeb81edbfd10108cde0726ca9619a5</sys_update_name>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-06 11:21:00</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>

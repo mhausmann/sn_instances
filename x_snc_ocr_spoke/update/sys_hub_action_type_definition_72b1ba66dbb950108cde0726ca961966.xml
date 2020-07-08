@@ -1,0 +1,2215 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>e02d66e2dbb950108cde0726ca9619e5</copied_from>
+        <copied_from_name>Search Text (Match Pattern)</copied_from_name>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>search_text_following_word</internal_name>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛string","type":"action","ref":""},{"name":"{{action.string1}}","label":"action➛String","type":"action","ref":""},{"name":"{{action.regex}}","label":"action➛Regex","type":"action","ref":""},{"name":"{{action.preceeding_word}}","label":"action➛Preceeding Word","type":"action","ref":""},{"name":"{{action.preceding_word}}","label":"action➛Preceding Word","type":"action","ref":""},{"name":"{{step[2ed90f10-4a2b-459c-9f07-b6a88ff669b1].match}}","label":"step➛Script step➛match","type":"step","ref":""},{"name":"{{step[2ed90f10-4a2b-459c-9f07-b6a88ff669b1].match1}}","label":"step➛Script step➛Match","type":"step","ref":""},{"name":"{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].match}}","label":"step➛Script step➛match","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>05397e6adbb950108cde0726ca961980</latest_snapshot>
+        <master_snapshot>a5c83a6adbb950108cde0726ca9619da</master_snapshot>
+        <name>Search Text (Following Word)</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>72b1ba66dbb950108cde0726ca961966</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Search Text (Following Word)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_72b1ba66dbb950108cde0726ca961966</sys_update_name>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=72b1ba66dbb950108cde0726ca961966"/>
+    <sys_variable_value action="delete_multiple" query="document_key=72b1ba66dbb950108cde0726ca961966"/>
+    <sys_element_mapping action="delete_multiple" query="id=72b1ba66dbb950108cde0726ca961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>match</field>
+        <id>72b1ba66dbb950108cde0726ca961966</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:51</sys_created_on>
+        <sys_id>87b1be66dbb950108cde0726ca96190b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:34</sys_updated_on>
+        <table>var__m_sys_hub_action_output_72b1ba66dbb950108cde0726ca961966</table>
+        <value>{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].match}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=72b1ba66dbb950108cde0726ca961966^sys_idNOT INacc83a6adbb950108cde0726ca96191e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</action>
+        <cid>fd5b440e-66d7-4a97-aebe-f88ed6ee6760</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>acc83a6adbb950108cde0726ca96191e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acc83a6adbb950108cde0726ca96191e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acc83a6adbb950108cde0726ca96191e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>74c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var str = inputs.string;
+  var regex = new RegExp(inputs.preceding_word + '\\s(\\w+)');
+  outputs.match = str.match(regex)[1];
+  var source = regex.source;
+  gs.info(source);
+  gs.info(outputs.match);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acc83a6adbb950108cde0726ca96191e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acc83a6adbb950108cde0726ca96191e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>7cc83a6adbb950108cde0726ca96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceding_word</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:27</sys_created_on>
+        <sys_id>a0397e6adbb950108cde0726ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.preceding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceeding_word</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.preceeding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>30c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>fcc83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.string}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=acc83a6adbb950108cde0726ca96191e^sys_idNOT IN24c83a6adbb950108cde0726ca96192f,60397e6adbb950108cde0726ca96192c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>24c83a6adbb950108cde0726ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:26</sys_created_on>
+        <sys_id>60397e6adbb950108cde0726ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=acc83a6adbb950108cde0726ca96191e^sys_idNOT INb0c83a6adbb950108cde0726ca961938"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4210f791-039c-4863-988d-22fde98395a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=72b1ba66dbb950108cde0726ca961966^sys_idNOT IN94397e6adbb950108cde0726ca961916,cfb17e66dbb950108cde0726ca9619e2"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=95d544ee-6838-42dd-b6a9-e8e78cbfbb56</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Preceding Word</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</model>
+        <model_id>72b1ba66dbb950108cde0726ca961966</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_72b1ba66dbb950108cde0726ca961966</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:26</sys_created_on>
+        <sys_id>94397e6adbb950108cde0726ca961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5c9ab143-fc14-414b-aae0-742e9dffdee2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</model>
+        <model_id>72b1ba66dbb950108cde0726ca961966</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_72b1ba66dbb950108cde0726ca961966</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:50</sys_created_on>
+        <sys_id>cfb17e66dbb950108cde0726ca9619e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=72b1ba66dbb950108cde0726ca961966^sys_idNOT IN03b1be66dbb950108cde0726ca961904"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5821a4d9-9b91-4958-a973-275a4b46ec71</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</model>
+        <model_id>72b1ba66dbb950108cde0726ca961966</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_72b1ba66dbb950108cde0726ca961966</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:51</sys_created_on>
+        <sys_id>03b1be66dbb950108cde0726ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:20:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=72b1ba66dbb950108cde0726ca961966^sys_idNOT INacc83a6adbb950108cde0726ca96191e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</action>
+        <cid>fd5b440e-66d7-4a97-aebe-f88ed6ee6760</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>acc83a6adbb950108cde0726ca96191e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=acc83a6adbb950108cde0726ca96191e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acc83a6adbb950108cde0726ca96191e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>74c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var str = inputs.string;
+  var regex = new RegExp(inputs.preceding_word + '\\s(\\w+)');
+  outputs.match = str.match(regex)[1];
+  var source = regex.source;
+  gs.info(source);
+  gs.info(outputs.match);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>acc83a6adbb950108cde0726ca96191e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=acc83a6adbb950108cde0726ca96191e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>7cc83a6adbb950108cde0726ca96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceding_word</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:27</sys_created_on>
+        <sys_id>a0397e6adbb950108cde0726ca96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:27</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.preceding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceeding_word</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca96194e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.preceeding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>30c83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>acc83a6adbb950108cde0726ca96191e</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:33</sys_created_on>
+        <sys_id>fcc83a6adbb950108cde0726ca96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:33</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</table>
+        <value>{{action.string}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=acc83a6adbb950108cde0726ca96191e^sys_idNOT IN24c83a6adbb950108cde0726ca96192f,60397e6adbb950108cde0726ca96192c"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>24c83a6adbb950108cde0726ca96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:26</sys_created_on>
+        <sys_id>60397e6adbb950108cde0726ca96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:26</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=acc83a6adbb950108cde0726ca96191e^sys_idNOT INb0c83a6adbb950108cde0726ca961938"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4210f791-039c-4863-988d-22fde98395a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">acc83a6adbb950108cde0726ca96191e</model>
+        <model_id>acc83a6adbb950108cde0726ca96191e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_acc83a6adbb950108cde0726ca96191e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:32</sys_created_on>
+        <sys_id>b0c83a6adbb950108cde0726ca961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_72b1ba66dbb950108cde0726ca961966^sys_idNOT IN07b17e66dbb950108cde0726ca9619e7,2c397e6adbb950108cde0726ca96191a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string</element>
+        <help/>
+        <hint/>
+        <label>String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_72b1ba66dbb950108cde0726ca961966</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:50</sys_created_on>
+        <sys_id>07b17e66dbb950108cde0726ca9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:20:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>preceding_word</element>
+        <help/>
+        <hint/>
+        <label>Preceding Word</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_72b1ba66dbb950108cde0726ca961966</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:26</sys_created_on>
+        <sys_id>2c397e6adbb950108cde0726ca96191a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:26</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_72b1ba66dbb950108cde0726ca961966^sys_idNOT IN4fb1be66dbb950108cde0726ca961908"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>match</element>
+        <help/>
+        <hint/>
+        <label>Match</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_72b1ba66dbb950108cde0726ca961966</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:20:51</sys_created_on>
+        <sys_id>4fb1be66dbb950108cde0726ca961908</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:20:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=72b1ba66dbb950108cde0726ca961966^sys_idNOT INd2c87a6adbb950108cde0726ca96193d"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d2c87a6adbb950108cde0726ca96193d","name":"plan"}}</plan>
+        <snapshot>05397e6adbb950108cde0726ca961980</snapshot>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d2c87a6adbb950108cde0726ca96193d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:34</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>search_text_following_word</internal_name>
+        <label_cache>[{"name":"{{action.string}}","label":"action➛string","type":"action","ref":""},{"name":"{{action.string1}}","label":"action➛String","type":"action","ref":""},{"name":"{{action.regex}}","label":"action➛Regex","type":"action","ref":""},{"name":"{{action.preceeding_word}}","label":"action➛Preceeding Word","type":"action","ref":""},{"name":"{{action.preceding_word}}","label":"action➛Preceding Word","type":"action","ref":""},{"name":"{{step[2ed90f10-4a2b-459c-9f07-b6a88ff669b1].match}}","label":"step➛Script step➛match","type":"step","ref":""},{"name":"{{step[2ed90f10-4a2b-459c-9f07-b6a88ff669b1].match1}}","label":"step➛Script step➛Match","type":"step","ref":""},{"name":"{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].match}}","label":"step➛Script step➛match","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Search Text (Following Word)</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Search Text (Following Word)">72b1ba66dbb950108cde0726ca961966</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a5c83a6adbb950108cde0726ca9619da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:30</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a5c83a6adbb950108cde0726ca9619da"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a5c83a6adbb950108cde0726ca9619da"/>
+    <sys_element_mapping action="delete_multiple" query="id=a5c83a6adbb950108cde0726ca9619da"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>match</field>
+        <id>a5c83a6adbb950108cde0726ca9619da</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>39c87a6adbb950108cde0726ca961909</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a5c83a6adbb950108cde0726ca9619da</table>
+        <value>{{step[fd5b440e-66d7-4a97-aebe-f88ed6ee6760].match}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=a5c83a6adbb950108cde0726ca9619da^sys_idNOT INe9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Text (Following Word)">a5c83a6adbb950108cde0726ca9619da</action>
+        <cid>fd5b440e-66d7-4a97-aebe-f88ed6ee6760</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>e9c83a6adbb950108cde0726ca9619e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e9c83a6adbb950108cde0726ca9619e7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>7dc83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var str = inputs.string;
+  var regex = new RegExp(inputs.preceding_word + '\\s(\\w+)');
+  outputs.match = str.match(regex)[1];
+  var source = regex.source;
+  gs.info(source);
+  gs.info(outputs.match);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e9c83a6adbb950108cde0726ca9619e7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>b9c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>75c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceding_word</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:32</sys_created_on>
+        <sys_id>7939be6adbb950108cde0726ca961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.preceding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceeding_word</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>b9c83a6adbb950108cde0726ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.preceeding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>39c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>f5c83a6adbb950108cde0726ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.string}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e9c83a6adbb950108cde0726ca9619e7^sys_idNOT IN39c83a6adbb950108cde0726ca9619ea,f9397e6adbb950108cde0726ca9619d5"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>39c83a6adbb950108cde0726ca9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>preceding_word</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:31</sys_created_on>
+        <sys_id>f9397e6adbb950108cde0726ca9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e9c83a6adbb950108cde0726ca9619e7^sys_idNOT INb1c83a6adbb950108cde0726ca9619f6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4210f791-039c-4863-988d-22fde98395a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>b1c83a6adbb950108cde0726ca9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=a5c83a6adbb950108cde0726ca9619da^sys_idNOT IN9d397e6adbb950108cde0726ca9619bf,e1c83a6adbb950108cde0726ca9619db"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=95d544ee-6838-42dd-b6a9-e8e78cbfbb56</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Preceding Word</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">a5c83a6adbb950108cde0726ca9619da</model>
+        <model_id>a5c83a6adbb950108cde0726ca9619da</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a5c83a6adbb950108cde0726ca9619da</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:30</sys_created_on>
+        <sys_id>9d397e6adbb950108cde0726ca9619bf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:30</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=5c9ab143-fc14-414b-aae0-742e9dffdee2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>String</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">a5c83a6adbb950108cde0726ca9619da</model>
+        <model_id>a5c83a6adbb950108cde0726ca9619da</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_a5c83a6adbb950108cde0726ca9619da</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>e1c83a6adbb950108cde0726ca9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=a5c83a6adbb950108cde0726ca9619da^sys_idNOT INb1c87a6adbb950108cde0726ca961902"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=5821a4d9-9b91-4958-a973-275a4b46ec71</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Search Text (Following Word)">a5c83a6adbb950108cde0726ca9619da</model>
+        <model_id>a5c83a6adbb950108cde0726ca9619da</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_a5c83a6adbb950108cde0726ca9619da</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>b1c87a6adbb950108cde0726ca961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_step_instance action="delete_multiple" query="action=a5c83a6adbb950108cde0726ca9619da^sys_idNOT INe9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Search Text (Following Word)">a5c83a6adbb950108cde0726ca9619da</action>
+        <cid>fd5b440e-66d7-4a97-aebe-f88ed6ee6760</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>e9c83a6adbb950108cde0726ca9619e7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e9c83a6adbb950108cde0726ca9619e7</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>7dc83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  var str = inputs.string;
+  var regex = new RegExp(inputs.preceding_word + '\\s(\\w+)');
+  outputs.match = str.match(regex)[1];
+  var source = regex.source;
+  gs.info(source);
+  gs.info(outputs.match);
+})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>e9c83a6adbb950108cde0726ca9619e7</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>b9c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e9c83a6adbb950108cde0726ca9619e7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>75c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceding_word</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:32</sys_created_on>
+        <sys_id>7939be6adbb950108cde0726ca961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:32</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.preceding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>preceeding_word</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>b9c83a6adbb950108cde0726ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.preceeding_word}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>39c83a6adbb950108cde0726ca9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>string</field>
+        <id>e9c83a6adbb950108cde0726ca9619e7</id>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>f5c83a6adbb950108cde0726ca9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</table>
+        <value>{{action.string}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=e9c83a6adbb950108cde0726ca9619e7^sys_idNOT IN39c83a6adbb950108cde0726ca9619ea,f9397e6adbb950108cde0726ca9619d5"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>string</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>string</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>39c83a6adbb950108cde0726ca9619ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>preceding_word</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>preceding_word</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:31</sys_created_on>
+        <sys_id>f9397e6adbb950108cde0726ca9619d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=e9c83a6adbb950108cde0726ca9619e7^sys_idNOT INb1c83a6adbb950108cde0726ca9619f6"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=4210f791-039c-4863-988d-22fde98395a8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>match</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>match</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">e9c83a6adbb950108cde0726ca9619e7</model>
+        <model_id>e9c83a6adbb950108cde0726ca9619e7</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_e9c83a6adbb950108cde0726ca9619e7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>b1c83a6adbb950108cde0726ca9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_a5c83a6adbb950108cde0726ca9619da^sys_idNOT IN21c83a6adbb950108cde0726ca9619e0,25397e6adbb950108cde0726ca9619c4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>string</element>
+        <help/>
+        <hint/>
+        <label>String</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a5c83a6adbb950108cde0726ca9619da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:36</sys_created_on>
+        <sys_id>21c83a6adbb950108cde0726ca9619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>preceding_word</element>
+        <help/>
+        <hint/>
+        <label>Preceding Word</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_a5c83a6adbb950108cde0726ca9619da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:53:30</sys_created_on>
+        <sys_id>25397e6adbb950108cde0726ca9619c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:53:30</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_a5c83a6adbb950108cde0726ca9619da^sys_idNOT INbdc87a6adbb950108cde0726ca961906"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>match</element>
+        <help/>
+        <hint/>
+        <label>Match</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_a5c83a6adbb950108cde0726ca9619da</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-07 14:51:37</sys_created_on>
+        <sys_id>bdc87a6adbb950108cde0726ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-07 14:51:37</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDff51b016befd10108b93124b609f5278</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>5a03da981b359410a9a855f82d4bcb56</scope_name>
+        <serialized_content>{"FlowDesigner:FDff51b016befd10108b93124b609f5278":{"description":"String","description.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"description\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}},"FlowDesigner:FDff51b016befd10108b93124b609f5278.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"textAnnotations\",\"mandatory\":\"false\",\"uiUniqueId\":\"8bffda10-44b1-4352-8e94-a69d1704dcd2\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDff51b016befd10108b93124b609f5278\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"7\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>darren.murby</sys_created_by>
+        <sys_created_on>2020-07-06 10:21:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b351b016dbfd10108cde0726ca961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDff51b016befd10108b93124b609f5278</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_complex_object_b351b016dbfd10108cde0726ca961979</sys_update_name>
+        <sys_updated_by>darren.murby</sys_updated_by>
+        <sys_updated_on>2020-07-06 10:21:32</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

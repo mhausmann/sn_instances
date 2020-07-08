@@ -80,7 +80,6 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action_type>
         <action_type_parent/>
         <comment/>
@@ -100,31 +99,6 @@
         <ui_id>3d177e8b-b35c-4cae-a39e-3f18dbcf8711</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cf5ae1c1b759410a9a855f82d4bcb3e"/>
-    <sys_element_mapping action="delete_multiple" query="id=8cf5ae1c1b759410a9a855f82d4bcb3e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>attachment_sysid</field>
-        <id>8cf5ae1c1b759410a9a855f82d4bcb3e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-02 08:40:11</sys_created_on>
-        <sys_id>58d3b7b01b751810a9a855f82d4bcb25</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-02 08:40:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3133d6d81b359410a9a855f82d4bcb48</table>
-        <value>{{579372e1-4e31-4c4b-bb94-604d34663f0c.parameter1}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>base64_content</field>
-        <id>8cf5ae1c1b759410a9a855f82d4bcb3e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-30 13:43:59</sys_created_on>
-        <sys_id>8b26a25c1b759410a9a855f82d4bcb8f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 13:43:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3133d6d81b359410a9a855f82d4bcb48</table>
-        <value>{{Created or Updated_1.current.u_string_1}}</value>
-    </sys_element_mapping>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=0a41e2181b759410a9a855f82d4bcb03^sys_idNOT IN77e5ae1c1b759410a9a855f82d4bcb3a"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -481,7 +455,6 @@
     </sys_element_mapping>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
         <action_type display_value="Detect text">3133d6d81b359410a9a855f82d4bcb48</action_type>
         <action_type_parent/>
         <comment/>
@@ -501,31 +474,6 @@
         <ui_id>3d177e8b-b35c-4cae-a39e-3f18dbcf8711</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8cf5ae1c1b759410a9a855f82d4bcb3e"/>
-    <sys_element_mapping action="delete_multiple" query="id=8cf5ae1c1b759410a9a855f82d4bcb3e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>attachment_sysid</field>
-        <id>8cf5ae1c1b759410a9a855f82d4bcb3e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-02 08:40:11</sys_created_on>
-        <sys_id>58d3b7b01b751810a9a855f82d4bcb25</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-02 08:40:11</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3133d6d81b359410a9a855f82d4bcb48</table>
-        <value>{{579372e1-4e31-4c4b-bb94-604d34663f0c.parameter1}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>base64_content</field>
-        <id>8cf5ae1c1b759410a9a855f82d4bcb3e</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-06-30 13:43:59</sys_created_on>
-        <sys_id>8b26a25c1b759410a9a855f82d4bcb8f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-30 13:43:59</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3133d6d81b359410a9a855f82d4bcb48</table>
-        <value>{{Created or Updated_1.current.u_string_1}}</value>
-    </sys_element_mapping>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0a41e2181b759410a9a855f82d4bcb03^sys_idNOT IN73e5ae1c1b759410a9a855f82d4bcb1f,ffe5ae1c1b759410a9a855f82d4bcb24,ffe5ae1c1b759410a9a855f82d4bcb36"/>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>current</element>
@@ -540,11 +488,11 @@
         <sys_created_on>2020-06-30 13:42:57</sys_created_on>
         <sys_id>73e5ae1c1b759410a9a855f82d4bcb1f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0a41e2181b759410a9a855f82d4bcb03_current_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-30 13:42:57</sys_updated_on>
         <url/>
@@ -563,11 +511,11 @@
         <sys_created_on>2020-06-30 13:42:57</sys_created_on>
         <sys_id>ffe5ae1c1b759410a9a855f82d4bcb24</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Changed Fields</sys_name>
         <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0a41e2181b759410a9a855f82d4bcb03_changed_fields_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-30 13:42:57</sys_updated_on>
         <url/>
@@ -586,11 +534,11 @@
         <sys_created_on>2020-06-30 13:42:57</sys_created_on>
         <sys_id>ffe5ae1c1b759410a9a855f82d4bcb36</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
         <sys_policy/>
         <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_0a41e2181b759410a9a855f82d4bcb03_table_name_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-30 13:42:57</sys_updated_on>
         <url/>

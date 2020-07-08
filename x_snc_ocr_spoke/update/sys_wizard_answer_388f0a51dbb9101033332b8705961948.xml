@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>OCR Documents</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>OCR Documents</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">24d2d911db31101033332b8705961904</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>matt.hausmann</sys_created_by>
+        <sys_created_on>2020-07-03 14:38:54</sys_created_on>
+        <sys_id>388f0a51dbb9101033332b8705961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>OCR Documents</sys_name>
+        <sys_package display_value="OCR Spoke" source="x_snc_ocr_spoke">5a03da981b359410a9a855f82d4bcb56</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OCR Spoke">5a03da981b359410a9a855f82d4bcb56</sys_scope>
+        <sys_update_name>sys_wizard_answer_388f0a51dbb9101033332b8705961948</sys_update_name>
+        <sys_updated_by>matt.hausmann</sys_updated_by>
+        <sys_updated_on>2020-07-03 14:38:54</sys_updated_on>
+        <table/>
+        <target_url>x_snc_ocr_spoke_ocr_documents.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>
